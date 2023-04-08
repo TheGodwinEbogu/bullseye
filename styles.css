@@ -1,0 +1,211 @@
+.html {
+  font-size: 62.5rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  color: #333;
+  font-family: "Fraunces", serif;
+  /* font-family: 'Rubik', sans-serif; */
+}
+
+.first_section {
+  background-image: url(images/Hero_img2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+.btn-light {
+  padding: 0.5rem 1rem;
+  background-color: #f7f7f7;
+  color: #333;
+  border-radius: 2.5rem;
+}
+.btn-light:hover {
+  background-color: #126485ac;
+}
+
+/* GRID SECTION */
+
+.grid-4 {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 100vh 100vh 100vh;
+  grid-template-columns: 50vw 50vw;
+}
+.grid__text-box {
+  padding: 8rem;
+}
+.grid_text {
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #676a6e;
+  margin-bottom: 2.8rem;
+}
+.grid__cta {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.5rem solid #ffd90047;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.grid__cta:hover {
+  border-bottom: 0.5rem solid #ffd900;
+}
+.grid__cta-pink {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.5rem solid hsla(9, 79%, 79%, 0.668);
+  color: #333;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.grid__cta-pink:hover {
+  border-bottom: 0.5rem solid #d5614fdd;
+}
+
+.grid__img {
+  width: 100%;
+  height: 100%;
+}
+.bg_img-apple {
+  background-image: url(images/image-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg_img-orange {
+  background-image: url(images/image-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heading__tertiary {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.grid__bg-text {
+  font-size: 1.2rem;
+}
+
+/* TESTIMONIAL SECTION */
+.section__testimonials {
+  /* height: 100vh; */
+  padding: 7rem;
+}
+.heading__secondary,
+.heading__secondary-2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #a7aaad;
+  margin-bottom: 3.5rem;
+}
+.heading__secondary-2 {
+  color: #333;
+  text-align: left;
+}
+.textimonial__box {
+  display: flex;
+  gap: 1rem;
+}
+/* .testimonials {
+} */
+.testimonial__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+.testimonial__text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.testimonial__name {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.testimonial__title {
+  font-style: italic;
+  font-size: 0.7rem;
+  color: #a7aaad;
+}
+
+/* SECTION FOUR */
+/* .fourth__section {
+} */
+.mois {
+  display: flex;
+}
+.mois__img-box {
+  width: 25%;
+}
+.mois__img {
+  width: 100%;
+}
+
+/* FOOTER */
+.fifth__section {
+  height: 60vh;
+  background-color: #90d4c6;
+}
+.footer__logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.footer__nav {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 3rem;
+  /* justify-content: space-around; */
+}
+
+.footer__link {
+  color: #458d7e;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.footer__link:hover {
+  color: #f7f7f7;
+}
+.icon-box {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.icon {
+  font-size: 3rem;
+  color: #458d7e;
+}
+.insta__icon:hover {
+  color: purple;
+}
+.fb__icon:hover {
+  color: rgb(18, 44, 213);
+}
+.twit__icon:hover {
+  color: rgb(122, 210, 244);
+}
+.pin__icon:hover {
+  color: #ff0000d2;
+}
+
+/* HELPERS */
+.center-text {
+  text-align: center;
+}
+.pad-top {
+  padding-top: 24rem;
+}
