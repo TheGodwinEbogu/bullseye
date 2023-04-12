@@ -148,9 +148,7 @@ body {
 }
 
 /* SECTION FOUR */
-/* .fourth__section {
-} */
-/* .mois {
+.mois {
   display: flex;
 }
 .mois__img-box {
@@ -158,7 +156,7 @@ body {
 }
 .mois__img {
   width: 100%;
-} */
+}
 
 /* FOOTER */
 .fifth__section {
