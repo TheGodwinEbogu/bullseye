@@ -6,11 +6,11 @@
   }
 }
 
-@media (max-width: 42rem) {
+/* @media (max-width: 42rem) {
   .grid-4 {
     overflow: hidden;
     display: grid;
     grid-template-rows: 50vw;
     grid-template-columns: 100vh;
   }
-}
+} */

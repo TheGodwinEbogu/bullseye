@@ -29,9 +29,13 @@
     <title>Sunnyside</title>
   </head>
   <body>
-    <section class="first_section">
+    <section class="position-relative first_section">
+      <h1 class="position-absolute hero-text text-light">We are creatives</h1>
+      <div class="position-absolute top-50 start-50 arrow">
+      <img class="" src="images/hero-arrow.png" alt="arrow">
+    </div>
       <!-- NAVIGATION AREA -->
-      <nav class="navbar navbar-expand-lg navbar-dark py-3">
+      <nav class="navbar navbar-expand-lg navbar-dark py-4">
         <div class="container">
           <a href="#" class="navbar-brand"
             ><img src="images/sunnyside.png" alt="logo"
@@ -57,7 +61,7 @@
                 <a href="#" class="nav-link fs-4">Products</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link fs-5 btn btn-light contact">Contact</a>
+                <a href="#" class="nav-link fs-5 btn btn-light text-uppercase contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -66,50 +70,57 @@
     </section>
     <!-- Grid section -->
     <section class="second__section">
-      <div class="grid-4">
-        <div class="grid__text-box col-md">
-          <h2 class="heading__secondary-2">Transform your brand</h2>
-          <p class="grid_text">
+      <!-- <div class="grid-4"> -->
+        <!-- bootstrap-grid -->
+        <div class="row g-0 align-items-center justify-content-center">
+
+        <div class=" grid__text-box col-md">
+          <h2 class="px-5 heading__secondary-2">Transform your brand</h2>
+          <p class="px-5 grid_text">
             We are a full-service creative agency specializing in helping brands
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <a class="grid__cta" href="#">LEARN MORE</a>
+          <a class="m-5 grid__cta" href="#">LEARN MORE</a>
         </div>
 
-        <div class="grid__img-box col-md">
-          <img class="grid__img" src="images/image-1.png" alt="" />
+        <div class="grid__img-box  col-md">
+          <img class="vh-100 vw-50 grid__img" src="images/image-1.png" alt="" />
         </div>
-        <div class="grid__img-box col-md">
-          <img class="grid__img" src="images/image-2.png" alt="" />
-        </div>
+      </div> 
+        <div class="row g-0 align-items-center justify-content-center">
+          <div class="grid__img-box  col-md vw-50">
+            <img class="vh-100 vw-50 grid__img" src="images/image-2.png" alt="" />
+          </div>
 
-        <div class="grid__text-box col-md">
-          <h2 class="heading__secondary-2">Stand out to the right audience</h2>
-          <p class="grid_text">
+        <div class="grid__text-box  col-md">
+          <h2 class="pt-5 px-5 heading__secondary-2">Stand out to the right audience</h2>
+          <p class="px-5 grid_text">
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we’ll build and
             extend your brand in digital places.
           </p>
-          <a class="grid__cta-pink" href="#">LEARN MORE</a>
-        </div>
-
-        <div class="bg_img-apple grid__text-box pad-top">
-          <h2 class="heading__tertiary photo_graph">Graphic Design</h2>
-          <p class="grid__bg-text">
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-        <div class="bg_img-orange grid__text-box pad-top">
-          <h2 class="heading__tertiary photo_graph">Photography</h2>
-          <p class="grid__bg-text">
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
+          <a class=" m-5 grid__cta-pink" href="#">LEARN MORE</a>
         </div>
       </div>
+      <!-- background Image in grid -->
+      <div class="row">
+      <div class="bg_img-apple grid__text-box pad-top col-md text-center vh-100 vw-50 ">
+        <h2 class="px-5 heading__tertiary photo_graph">Graphic Design</h2>
+        <p class="px-5 grid__bg-text">
+          Great design makes you memorable. We deliver artwork that
+          underscores your brand message and captures potential clients’
+          attention.
+        </p>
+      </div>
+      <div class="bg_img-orange grid__text-box pad-top col-md text-center vh-100 vw-50">
+        <h2 class="px-5 heading__tertiary photo_graph">Photography</h2>
+        <p class="px-5 grid__bg-text">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </div>
     </section>
     <section class="section__testimonials">
       <div class="heading__box">
@@ -157,21 +168,30 @@
         </div>
       </div>
     </section>
+
+
+
+
     <section class="fourth__section">
-      <div class="mois">
-        <div class="mois__img-box">
-          <img class="mois__img" src="images/mois-1.png" alt="" />
+      <div class=" d-flex overflow-hidden flex-wrap flex-footer">
+        <div class="w-100 ">
+          <img class="w-100" src="images/mois-1.png" alt="" />
         </div>
-        <div class="mois__img-box">
-          <img class="mois__img" src="images/mois-2.png" alt="" />
+        <div class=" w-100">
+          <img class="w-100" src="images/mois-2.png" alt="" />
         </div>
-        <div class="mois__img-box">
-          <img class="mois__img" src="images/mois-3.png" alt="" />
+        <div class="w-100">
+          <img class="w-100" src="images/mois-3.png" alt="" />
         </div>
-        <div class="mois__img-box">
-          <img class="mois__img" src="images/mois-4.png" alt="" />
+        <div class="w-100">
+          <img class="w-100" src="images/mois-4.png" alt="" />
         </div>
       </div>
+
+
+
+
+
 
       <footer class="fifth__section">
         <div class="footer__logo-box">
